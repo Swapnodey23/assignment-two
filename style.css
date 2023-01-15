@@ -440,6 +440,7 @@ hr{
         font-size: 12px;
         text-align: center;
     }
+    
 
 
 
@@ -451,6 +452,10 @@ hr{
     flex-direction: column;
     text-align: center;
 }
+.second-container-title{
+    margin-left: 30px;
+    width: 400px;
+}
 .features-details-two{
     font-size: 12px;
 }
@@ -460,14 +465,21 @@ hr{
     height: 400px;
     width: 350px;
 }
+.button-div> button {
+    position: absolute;
+    margin-top: 140px;
+    margin-left: -40px;
+    margin-bottom: 32px;
+}
 
 
                     /* third container */
 
 
 .third-container{
+
     margin-left: -155px;
-    margin-top: 120px;
+    margin-top: 260px;
 }
 .item-div{
     flex-direction: column;
