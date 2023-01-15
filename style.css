@@ -99,7 +99,7 @@ body {
 }
 .features-title{
 
-    width: 400px;
+     width: 400px;                           /*    hhhhh */
     font-size: 33px;
     color: #727272;
 }
@@ -363,8 +363,13 @@ hr{
 
 
 @media screen and (max-width:576px) {
+
+    body{
+        margin-bottom: 100000px;
+        width: 100%;
+    }
     .header-section{
-        height: 1120px;
+        height: 980px;
         width: 100%;
     }
     .header-left-div{
@@ -405,5 +410,34 @@ hr{
     }
     .title-p{
         font-size: 9px;
+    }
+
+    .first-container{
+        width: 100%;
+        border: 1px solid black;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-right: 1000px;
+
+    }
+    .images-first-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+    .details-second-div{
+        align-items: center;
+    }
+    .features-title{
+        margin-left: 30px;
+        text-align: center;
+    }
+   .features-details{
+        font-size: 12px;
+        text-align: center;
     }
 }
