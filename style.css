@@ -364,7 +364,7 @@ hr{
 @media screen and (max-width:576px) {
 
     body{
-        margin-bottom: 100000px;
+        margin-bottom: 700px;
         width: 100%;
     }
     .header-section{
@@ -393,7 +393,8 @@ hr{
         padding: 5px;
     }
     hr{
-        margin-left: 30px;
+        display: flex;
+        margin-left: 80px;
         margin-top: 20px;
         border: 1px dashed rgb(230, 218, 113);
         width: 300px;
