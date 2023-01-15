@@ -80,18 +80,18 @@ body {
 
 
 .first-container{
+    gap: 55px;
     width: 900px;
     height: 500px;
     margin-top: 50px;
     margin-left: 200px;
     margin-bottom: 80px;
     display: flex;
-    gap: 60px;
 }
 .images-first-div{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 24px;
+    grid-column-gap: 24px;
 }
 .images-first-div img{
     height: 210x;
@@ -238,6 +238,14 @@ body {
     justify-content: center;
     margin-bottom: 70px;
 }
+.item:hover{
+    width: 180px;
+    height: 180px;
+    background-color: aqua;
+    border:2px dashed rgb(238, 44, 30);
+    transform: rotate(135deg);
+    transition: width ease,height 5s,transform 5s;
+}
 .item img{
     height: 30px;
     width: 30px;
@@ -261,7 +269,7 @@ body {
 }
 .meain-border-div{
     border: 1px solid yellow;
-    background-color: #3741cf;
+    background-color: #797dbb;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -311,7 +319,7 @@ body {
 .fourth-container-title{
     text-align: center;
     margin-bottom: 10px;
-    font-size: 35px;
+    font-size: 30px;
 }
 .fourth-container-details{
     color: #727272;
