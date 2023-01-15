@@ -352,3 +352,50 @@ body {
     background-color: #FFF4E7;
     margin-bottom: 80px;
 }
+hr{
+    display: n;
+}
+
+
+                        /* media query */
+
+                        /* small/mobile device */
+
+
+@media screen and (max-width:576px) {
+    .header-section{
+        height: 1120px;
+        width: 100%;
+    }
+    .header-left-div{
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 140px;
+        margin-top: -30px;
+    }
+    .header-right-div{
+        color: #424242;
+        display: flex;
+        flex-direction: column;
+        padding-left: 55px;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    .header-right-div >nav{
+        margin-top: -30px;
+        border-radius: 5px;
+        background-color: #797dbb;
+        color: white;
+        padding: 5px;
+    }
+    hr{
+        margin-top: 20px;
+        border: 1px dashed rgb(230, 218, 113);
+        width: 300px;
+        margin-bottom: -20px;
+    }
+    .header-img > img{
+        height: 500px;
+        width: 400px;
+    }
+}
